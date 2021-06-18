@@ -113,9 +113,6 @@ button {
   background-color: hotpink;
 }
 
-#logo {
-  background-color: gray;
-}
 .neustart {
   text-align: center;
   padding: 30px auto;
@@ -133,7 +130,6 @@ button {
   margin: 25px auto;
   padding: 0 250px;
   border-radius: 10px;
-  width: 150px;
 }
 
 .video {
