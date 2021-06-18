@@ -1,3 +1,138 @@
+body {
+  background-image: linear-gradient(
+    to top,
+    rgb(255, 230, 112) 10.4%,
+    rgb(255, 100, 100) 43.8%,
+    rgb(0, 93, 219) 105.8%
+  );
+}
 h1 {
-  color: blue;
+  text-align: center;
+  margin: 5px auto;
+}
+
+h2 {
+  text-align: center;
+  margin: 15px 60px;
+}
+
+h3 {
+  text-align: center;
+}
+
+h3:hover {
+  text-decoration: underline;
+  background-color: coral;
+}
+
+h4 {
+  text-align: center;
+  font-size: large;
+}
+
+button {
+  display: block;
+  margin: 5px auto;
+  background-color: dodgerblue;
+  color: ghostwhite;
+  font-size: 24px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5%;
+  transition: all 200ms ease-in-out;
+}
+
+.main {
+  display: block;
+  border-radius: 10px;
+  margin: 0 40px;
+  padding: 5px 0;
+  background-color: #c7f3fa;
+  color: rgb(8, 64, 87);
+}
+
+.firstTime:hover {
+  opacity: 0.6;
+}
+
+.header {
+  font-size: xxx-large;
+  font-family: cursive;
+}
+.bench {
+  display: block;
+  margin: 5px auto;
+  padding: 0 60px;
+  background-color: #fdfdf5;
+  border-style: ridge;
+  border-width: 20px;
+  border-color: rgb(29, 15, 224);
+  border-radius: 50%;
+  max-width: 90%;
+}
+.bench:hover {
+  content: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/008/339/original/portrait.jpg?1619951135);
+  cursor: pointer;
+  background-color: rgb(141, 140, 140);
+  width: 450px;
+  max-width: 90%;
+}
+
+.newby {
+  background-color: whitesmoke;
+  color: darkred;
+  font-size: large;
+  line-height: 50px;
+  border-radius: 10px;
+}
+
+.history {
+  text-align: center;
+  font-family: cursive;
+  font-size: large;
+  border: dodgerblue;
+  border-style: solid;
+  margin: 0 60px;
+  padding: 15px 25px 0;
+}
+.ep:hover {
+  width: 400px;
+  box-shadow: 10px 5px 5px teal;
+  cursor: pointer;
+}
+.song {
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+}
+.song:hover {
+  text-decoration: underline;
+  background-color: hotpink;
+}
+.buy {
+  text-decoration: none;
+}
+.buyIt:hover {
+  opacity: 0.6;
+}
+
+.presents {
+  display: block;
+  background-color: black;
+  margin: 25px auto;
+  padding: 0 250px;
+  border-radius: 10px;
+  width: 150px;
+}
+
+.video {
+  text-decoration: none;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: center;
+  background-color: white;
 }
