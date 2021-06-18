@@ -12,6 +12,8 @@ h1 {
 }
 
 h2 {
+  font-family: cursive;
+  font-size: 60px;
   text-align: center;
   margin: 15px 60px;
 }
@@ -48,7 +50,7 @@ button {
   border-radius: 10px;
   margin: 0 40px;
   padding: 5px 0;
-  background-color: #c7f3fa;
+  background-color: #f0b2e1;
   color: rgb(8, 64, 87);
 }
 
@@ -109,6 +111,14 @@ button {
 .song:hover {
   text-decoration: underline;
   background-color: hotpink;
+}
+
+#logo {
+  background-color: gray;
+}
+.neustart {
+  text-align: center;
+  padding: 30px auto;
 }
 .buy {
   text-decoration: none;
