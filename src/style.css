@@ -50,6 +50,8 @@ body {
 }
 
 h1 {
+  font-size: xx-large;
+  font-weight: bolder;
   text-align: center;
   margin: 5px auto;
 }
@@ -140,13 +142,23 @@ button {
   background-color: hotpink;
 }
 
-.neustart {
+.widerstand-link {
   text-align: center;
-  padding: 30px auto;
 }
+
+.widerstand-link img {
+  border-radius: 10px;
+  margin: 0 30px;
+}
+
+.widerstand-link a {
+  font-size: 48px;
+}
+
 .buy {
   text-decoration: none;
 }
+
 .buyIt:hover {
   opacity: 0.6;
 }
