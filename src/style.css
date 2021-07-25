@@ -38,6 +38,13 @@ $gradient-top-left: linear-gradient(225deg, #f786deff, #4f9774ff, #415f7cff, #ee
 $gradient-bottom-left: linear-gradient(315deg, #f786deff, #4f9774ff, #415f7cff, #ee6c4dff, #14080cff);
 $gradient-radial: radial-gradient(#f786deff, #4f9774ff, #415f7cff, #ee6c4dff, #14080cff);
 */
+:root {
+  --branding-color: #f786deff;
+  --hover-color: #f4a235;
+  --secondary-color: #4f9774ff;
+  --tertiary-color: #415f7cff;
+  --text-color: #14080c;
+}
 
 body {
   background-image: linear-gradient(
@@ -111,9 +118,9 @@ button {
   display: block;
   margin: 5px auto;
   padding: 0 60px;
-  background-color: #415f7c;
+  background-color: var(--tertiary-color);
   border-width: 20px;
-  border-color: #415f7c;
+  border-color: var(--tertiary-color);
   border-radius: 20%;
   max-width: 100%;
 }
@@ -169,6 +176,21 @@ button {
 
 .buyIt:hover {
   opacity: 0.6;
+}
+
+.social-links a {
+  margin: 0 20px;
+  color: var(--tertiary-color);
+  border-radius: 50%;
+  padding: 10px 14px;
+  font-size: 30px;
+  margin-bottom: 60px;
+  transition: all 150ms ease-in-out;
+}
+
+.social-links a:hover {
+  color: white;
+  background-color: var(--tertiary-color);
 }
 
 .presents {
