@@ -142,8 +142,16 @@ button {
   background-color: hotpink;
 }
 
+.logo {
+  border-radius: 5px;
+}
+
+.text {
+  margin: 20px 0;
+}
 .widerstand-link {
   text-align: center;
+  margin: 20px 0;
 }
 
 .widerstand-link img {
@@ -169,6 +177,7 @@ button {
   margin: 25px auto;
   padding: 0 250px;
   border-radius: 10px;
+  max-height: 250px;
 }
 
 .video {
